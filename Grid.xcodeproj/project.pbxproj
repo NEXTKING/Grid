@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		C69C92631ED1919300A05BBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69C92621ED1919300A05BBA /* AppDelegate.swift */; };
-		C69C92651ED1919300A05BBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69C92641ED1919300A05BBA /* ViewController.swift */; };
 		C69C92681ED1919300A05BBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C69C92661ED1919300A05BBA /* Main.storyboard */; };
 		C69C926A1ED1919300A05BBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C69C92691ED1919300A05BBA /* Assets.xcassets */; };
 		C69C926D1ED1919300A05BBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C69C926B1ED1919300A05BBA /* LaunchScreen.storyboard */; };
 		C69C92781ED1919400A05BBA /* GridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69C92771ED1919400A05BBA /* GridTests.swift */; };
 		C69C92831ED1919400A05BBA /* GridUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69C92821ED1919400A05BBA /* GridUITests.swift */; };
+		C69C92951ED1935D00A05BBA /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69C92941ED1935D00A05BBA /* GridViewController.swift */; };
+		C69C92981ED1946F00A05BBA /* ProfilesServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69C92971ED1946F00A05BBA /* ProfilesServiceProtocol.swift */; };
+		C69C929C1ED197FC00A05BBA /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69C929B1ED197FC00A05BBA /* Profile.swift */; };
+		C69C929E1ED1992300A05BBA /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69C929D1ED1992300A05BBA /* ProfileCollectionViewCell.swift */; };
+		C69C92A01ED1A3B300A05BBA /* ServiceDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69C929F1ED1A3B300A05BBA /* ServiceDispatcher.swift */; };
+		C69C92A21ED1A45000A05BBA /* ProfilesServiceNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69C92A11ED1A45000A05BBA /* ProfilesServiceNetwork.swift */; };
+		C69C92A41ED1A7F400A05BBA /* ProfileServiceJSONSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69C92A31ED1A7F400A05BBA /* ProfileServiceJSONSerializer.swift */; };
+		C69C92A61ED1B73900A05BBA /* DateilsVewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69C92A51ED1B73900A05BBA /* DateilsVewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,6 @@
 /* Begin PBXFileReference section */
 		C69C925F1ED1919300A05BBA /* Grid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C69C92621ED1919300A05BBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C69C92641ED1919300A05BBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C69C92671ED1919300A05BBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C69C92691ED1919300A05BBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C69C926C1ED1919300A05BBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,14 @@
 		C69C927E1ED1919400A05BBA /* GridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GridUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C69C92821ED1919400A05BBA /* GridUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridUITests.swift; sourceTree = "<group>"; };
 		C69C92841ED1919400A05BBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C69C92941ED1935D00A05BBA /* GridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
+		C69C92971ED1946F00A05BBA /* ProfilesServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilesServiceProtocol.swift; sourceTree = "<group>"; };
+		C69C929B1ED197FC00A05BBA /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		C69C929D1ED1992300A05BBA /* ProfileCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewCell.swift; sourceTree = "<group>"; };
+		C69C929F1ED1A3B300A05BBA /* ServiceDispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceDispatcher.swift; sourceTree = "<group>"; };
+		C69C92A11ED1A45000A05BBA /* ProfilesServiceNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilesServiceNetwork.swift; sourceTree = "<group>"; };
+		C69C92A31ED1A7F400A05BBA /* ProfileServiceJSONSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileServiceJSONSerializer.swift; sourceTree = "<group>"; };
+		C69C92A51ED1B73900A05BBA /* DateilsVewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateilsVewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +111,13 @@
 		C69C92611ED1919300A05BBA /* Grid */ = {
 			isa = PBXGroup;
 			children = (
+				C69C929A1ED1979100A05BBA /* View */,
+				C69C92991ED1977F00A05BBA /* Model */,
+				C69C92961ED1944300A05BBA /* Service */,
 				C69C92621ED1919300A05BBA /* AppDelegate.swift */,
-				C69C92641ED1919300A05BBA /* ViewController.swift */,
+				C69C929F1ED1A3B300A05BBA /* ServiceDispatcher.swift */,
+				C69C92941ED1935D00A05BBA /* GridViewController.swift */,
+				C69C92A51ED1B73900A05BBA /* DateilsVewController.swift */,
 				C69C92661ED1919300A05BBA /* Main.storyboard */,
 				C69C92691ED1919300A05BBA /* Assets.xcassets */,
 				C69C926B1ED1919300A05BBA /* LaunchScreen.storyboard */,
@@ -123,6 +142,32 @@
 				C69C92841ED1919400A05BBA /* Info.plist */,
 			);
 			path = GridUITests;
+			sourceTree = "<group>";
+		};
+		C69C92961ED1944300A05BBA /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C69C92971ED1946F00A05BBA /* ProfilesServiceProtocol.swift */,
+				C69C92A11ED1A45000A05BBA /* ProfilesServiceNetwork.swift */,
+				C69C92A31ED1A7F400A05BBA /* ProfileServiceJSONSerializer.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		C69C92991ED1977F00A05BBA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C69C929B1ED197FC00A05BBA /* Profile.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C69C929A1ED1979100A05BBA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C69C929D1ED1992300A05BBA /* ProfileCollectionViewCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +307,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C69C92651ED1919300A05BBA /* ViewController.swift in Sources */,
+				C69C92A21ED1A45000A05BBA /* ProfilesServiceNetwork.swift in Sources */,
+				C69C92A61ED1B73900A05BBA /* DateilsVewController.swift in Sources */,
+				C69C92981ED1946F00A05BBA /* ProfilesServiceProtocol.swift in Sources */,
+				C69C929C1ED197FC00A05BBA /* Profile.swift in Sources */,
+				C69C92951ED1935D00A05BBA /* GridViewController.swift in Sources */,
 				C69C92631ED1919300A05BBA /* AppDelegate.swift in Sources */,
+				C69C92A01ED1A3B300A05BBA /* ServiceDispatcher.swift in Sources */,
+				C69C929E1ED1992300A05BBA /* ProfileCollectionViewCell.swift in Sources */,
+				C69C92A41ED1A7F400A05BBA /* ProfileServiceJSONSerializer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +475,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dk.Grid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -436,6 +489,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dk.Grid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
